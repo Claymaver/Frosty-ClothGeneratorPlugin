@@ -127,3 +127,11 @@ The plugin will create them automatically.
 
 Original cloth format research from FrostMeshy.
 Credit to Schnick for the original logic.
+
+# Support
+
+If you encounter issues:
+
+- Open a GitHub issue
+- Include your Frosty logs
+- Include mesh details if possible
