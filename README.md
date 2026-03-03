@@ -17,9 +17,9 @@ Built specifically for **Star Wars Battlefront II (2017)** modding.
 If your custom mesh includes cloth (capes, kama, straps, waist cloth,
 etc.), this plugin will:
 
--   Copy working cloth data from an existing mesh\
--   Apply it to your custom mesh\
--   Automatically create the required cloth resources\
+-   Copy working cloth data from an existing mesh
+-   Apply it to your custom mesh
+-   Automatically create the required cloth resources
 -   Save everything directly into your Frosty project
 
 Simple workflow. No sliders. No manual tweaking.
@@ -44,7 +44,7 @@ That's it. Launch Frosty and you're ready to go.
 
 ## Step 1 --- Import Your Mesh
 
-Import your FBX using: - Frosty's built-in FBX importer\
+Import your FBX using: - Frosty's built-in FBX importer
 - Or your custom mesh importer plugin (LINK)
 
 ------------------------------------------------------------------------
@@ -72,13 +72,13 @@ Click:
 
 Select a mesh that:
 
--   Already has working cloth\
--   Is similar to your mesh\
+-   Already has working cloth
+-   Is similar to your mesh
 -   Uses the same skeleton
 
 The plugin will copy:
 
--   ClothWrapping\
+-   ClothWrapping
 -   EACloth
 
 From that mesh to yours.
@@ -99,14 +99,14 @@ Save your project and apply your mod.
 
 ## Cloth Doesn't Move
 
--   Template mesh must use the same skeleton\
+-   Template mesh must use the same skeleton
 -   Your mesh must have correct bone weights
 
 ## Game Crashes
 
--   Mesh and cloth must be in the same bundle\
--   Bone weights must match the skeleton\
--   Try a different template mesh
+-   Mesh and cloth must be in the same bundle
+-   Bone weights must match the skeleton
+-   Try a different template mes
 
 ## "No existing cloth resources found"
 
@@ -118,12 +118,12 @@ The plugin will create them automatically.
 
 #  Requirements
 
--   Frosty Editor 1.0.6.3+\
+-   Frosty Editor 1.0.6.3+
 -   Star Wars Battlefront II (2017) loaded in Frosty
 
 ------------------------------------------------------------------------
 
 #  Credits
 
-Original cloth format research from FrostMeshy.\
+Original cloth format research from FrostMeshy.
 Credit to Schnick for the original logic.
