@@ -1,0 +1,54 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <Configurations>Debug;Release</Configurations>
+    <Platforms>x64</Platforms>
+    <TargetFrameworks>net48</TargetFrameworks>
+    <AssemblyTitle>ClothDataPlugin</AssemblyTitle>
+    <Product>ClothDataPlugin</Product>
+    <Copyright>Copyright 2024</Copyright>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <UseWPF>true</UseWPF>
+    <OutputType>Library</OutputType>
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="FrostyControls">
+      <HintPath>..\..\..\..\..\Modding\FrostyEditor\FrostyControls.dll</HintPath>
+    </Reference>
+    <Reference Include="FrostyCore">
+      <HintPath>..\..\..\..\..\Modding\FrostyEditor\FrostyCore.dll</HintPath>
+    </Reference>
+    <Reference Include="FrostyEditor">
+      <HintPath>..\..\..\..\..\Modding\FrostyEditor\FrostyEditor.exe</HintPath>
+    </Reference>
+    <Reference Include="FrostyHash">
+      <HintPath>..\..\..\..\..\Modding\FrostyEditor\FrostyHash.dll</HintPath>
+    </Reference>
+    <Reference Include="FrostySdk">
+      <HintPath>..\..\..\..\..\Modding\FrostyEditor\FrostySdk.dll</HintPath>
+    </Reference>
+    <Reference Include="MeshSetPlugin">
+      <HintPath>..\..\..\..\..\Modding\FrostyEditor\Plugins\MeshSetPlugin.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+
+</Project>
